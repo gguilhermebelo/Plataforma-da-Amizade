@@ -1,0 +1,134 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+.absolute {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}
+
+.nao-conformidades {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+}
+
+.btn-area {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-area * {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(77, 180, 99);
+}
+
+.btn-area .btn-cancelar {
+    color: white;
+    background-color: rgb(180, 77, 77);
+}
+
+.btn-voltar {
+    background-color: gray;
+}
+
+.btn-area-infos {
+    margin-top: 20px;
+}
+
+.btn-nao-conforme {
+    background-color: rgb(90, 162, 190);
+}
+
+.main {
+    background-color: white;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.direita {
+    width: 50%;
+}
+
+.form-projeto {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 3px solid rgba(0, 0, 0, .7);
+    padding: 50px 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.form-projeto div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.projeto-info {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+td#campo-esta-conforme {
+    display: flex;
+    gap: 20px
+}
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px 20px; 
+    color: white;
+    background-color: rgb(77, 180, 99);
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
